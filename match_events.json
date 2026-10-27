@@ -1,0 +1,435 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-23T17:04:18.768770+00:00",
+  "seed": 77,
+  "disclaimer": "Entirely synthetic, football-realistic demo data. Not match footage or licensed match-event data.",
+  "match": {
+    "home": {
+      "id": "blue-lions",
+      "name": "Blue Lions",
+      "short": "BLU"
+    },
+    "away": {
+      "id": "red-hawks",
+      "name": "Red Hawks",
+      "short": "RED"
+    },
+    "competition": "MatchLens synthetic showcase",
+    "duration_minutes": 90
+  },
+  "events": [
+    {
+      "id": 12,
+      "minute": 1,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "pressure",
+      "player": "P. Botha",
+      "synthetic": true
+    },
+    {
+      "id": 13,
+      "minute": 4,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "pass",
+      "player": "S. Jacobs",
+      "synthetic": true,
+      "recipient": "K. Mokoena",
+      "distance_m": 40,
+      "successful": false
+    },
+    {
+      "id": 1,
+      "minute": 6,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "pass",
+      "player": "M. Dlamini",
+      "synthetic": true,
+      "recipient": "K. Mokoena",
+      "distance_m": 23,
+      "successful": true
+    },
+    {
+      "id": 14,
+      "minute": 7,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "pass",
+      "player": "A. Ndlovu",
+      "synthetic": true,
+      "recipient": "P. Botha",
+      "distance_m": 26,
+      "successful": false
+    },
+    {
+      "id": 15,
+      "minute": 9,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "possession_change",
+      "player": "C. Adams",
+      "synthetic": true
+    },
+    {
+      "id": 2,
+      "minute": 12,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "shot",
+      "player": "K. Mokoena",
+      "synthetic": true,
+      "xg": 0.18,
+      "on_target": true
+    },
+    {
+      "id": 16,
+      "minute": 14,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "pass",
+      "player": "C. Adams",
+      "synthetic": true,
+      "recipient": "C. Adams",
+      "distance_m": 12,
+      "successful": true
+    },
+    {
+      "id": 17,
+      "minute": 15,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "possession_change",
+      "player": "T. Williams",
+      "synthetic": true
+    },
+    {
+      "id": 18,
+      "minute": 17,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "possession_change",
+      "player": "C. Adams",
+      "synthetic": true
+    },
+    {
+      "id": 3,
+      "minute": 19,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "tackle",
+      "player": "P. Botha",
+      "synthetic": true,
+      "successful": true
+    },
+    {
+      "id": 19,
+      "minute": 22,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "pressure",
+      "player": "T. Williams",
+      "synthetic": true
+    },
+    {
+      "id": 20,
+      "minute": 24,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "tackle",
+      "player": "A. Ndlovu",
+      "synthetic": true,
+      "successful": true
+    },
+    {
+      "id": 21,
+      "minute": 25,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "pressure",
+      "player": "L. Naidoo",
+      "synthetic": true
+    },
+    {
+      "id": 22,
+      "minute": 26,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "pass",
+      "player": "R. Petersen",
+      "synthetic": true,
+      "recipient": "J. Mthembu",
+      "distance_m": 37,
+      "successful": false
+    },
+    {
+      "id": 4,
+      "minute": 28,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "goal",
+      "player": "L. Naidoo",
+      "synthetic": true,
+      "xg": 0.41,
+      "assist": "K. Mokoena"
+    },
+    {
+      "id": 23,
+      "minute": 29,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "pass",
+      "player": "M. Dlamini",
+      "synthetic": true,
+      "recipient": "M. Dlamini",
+      "distance_m": 14,
+      "successful": true
+    },
+    {
+      "id": 24,
+      "minute": 30,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "pressure",
+      "player": "L. Naidoo",
+      "synthetic": true
+    },
+    {
+      "id": 25,
+      "minute": 35,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "tackle",
+      "player": "A. Ndlovu",
+      "synthetic": true,
+      "successful": true
+    },
+    {
+      "id": 5,
+      "minute": 37,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "shot",
+      "player": "A. Ndlovu",
+      "synthetic": true,
+      "xg": 0.09,
+      "on_target": false
+    },
+    {
+      "id": 26,
+      "minute": 38,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "pass",
+      "player": "R. Petersen",
+      "synthetic": true,
+      "recipient": "A. Ndlovu",
+      "distance_m": 5,
+      "successful": true
+    },
+    {
+      "id": 27,
+      "minute": 41,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "pass",
+      "player": "K. Mokoena",
+      "synthetic": true,
+      "recipient": "T. Williams",
+      "distance_m": 11,
+      "successful": false
+    },
+    {
+      "id": 28,
+      "minute": 43,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "pass",
+      "player": "M. Dlamini",
+      "synthetic": true,
+      "recipient": "M. Dlamini",
+      "distance_m": 15,
+      "successful": true
+    },
+    {
+      "id": 29,
+      "minute": 47,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "possession_change",
+      "player": "S. Jacobs",
+      "synthetic": true
+    },
+    {
+      "id": 6,
+      "minute": 52,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "goal",
+      "player": "A. Ndlovu",
+      "synthetic": true,
+      "xg": 0.24,
+      "assist": "J. Mthembu"
+    },
+    {
+      "id": 30,
+      "minute": 57,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "shot",
+      "player": "R. Petersen",
+      "synthetic": true,
+      "xg": 0.1,
+      "on_target": false
+    },
+    {
+      "id": 31,
+      "minute": 59,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "pass",
+      "player": "L. Naidoo",
+      "synthetic": true,
+      "recipient": "M. Dlamini",
+      "distance_m": 35,
+      "successful": true
+    },
+    {
+      "id": 32,
+      "minute": 60,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "pass",
+      "player": "A. Ndlovu",
+      "synthetic": true,
+      "recipient": "P. Botha",
+      "distance_m": 6,
+      "successful": true
+    },
+    {
+      "id": 7,
+      "minute": 63,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "yellow_card",
+      "player": "T. Williams",
+      "synthetic": true,
+      "reason": "late challenge"
+    },
+    {
+      "id": 33,
+      "minute": 68,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "tackle",
+      "player": "M. Dlamini",
+      "synthetic": true,
+      "successful": true
+    },
+    {
+      "id": 8,
+      "minute": 71,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "substitution",
+      "player": "S. Jacobs",
+      "synthetic": true,
+      "on_for": "T. Williams"
+    },
+    {
+      "id": 34,
+      "minute": 72,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "tackle",
+      "player": "K. Mokoena",
+      "synthetic": true,
+      "successful": false
+    },
+    {
+      "id": 35,
+      "minute": 73,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "tackle",
+      "player": "T. Williams",
+      "synthetic": true,
+      "successful": true
+    },
+    {
+      "id": 36,
+      "minute": 75,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "possession_change",
+      "player": "R. Petersen",
+      "synthetic": true
+    },
+    {
+      "id": 9,
+      "minute": 79,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "shot",
+      "player": "S. Jacobs",
+      "synthetic": true,
+      "xg": 0.35,
+      "on_target": true
+    },
+    {
+      "id": 10,
+      "minute": 82,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "goal",
+      "player": "S. Jacobs",
+      "synthetic": true,
+      "xg": 0.35,
+      "assist": "M. Dlamini"
+    },
+    {
+      "id": 37,
+      "minute": 85,
+      "team": "blue-lions",
+      "team_name": "Blue Lions",
+      "type": "possession_change",
+      "player": "T. Williams",
+      "synthetic": true
+    },
+    {
+      "id": 38,
+      "minute": 86,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "pass",
+      "player": "P. Botha",
+      "synthetic": true,
+      "recipient": "A. Ndlovu",
+      "distance_m": 38,
+      "successful": true
+    },
+    {
+      "id": 39,
+      "minute": 89,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "shot",
+      "player": "R. Petersen",
+      "synthetic": true,
+      "xg": 0.13,
+      "on_target": false
+    },
+    {
+      "id": 11,
+      "minute": 90,
+      "team": "red-hawks",
+      "team_name": "Red Hawks",
+      "type": "shot",
+      "player": "C. Adams",
+      "synthetic": true,
+      "xg": 0.12,
+      "on_target": false
+    }
+  ]
+}

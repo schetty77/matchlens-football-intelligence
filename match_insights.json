@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "source_seed": 77,
+  "disclaimer": "Insights are deterministic demonstrations over synthetic events, not claims about a real match.",
+  "insights": [
+    {
+      "kind": "SUPER_SUB",
+      "headline": "S. Jacobs scored 11 minutes after entering for Blue Lions.",
+      "evidence_event_ids": [
+        8,
+        9,
+        10
+      ],
+      "evidence": [
+        {
+          "event_id": 8,
+          "minute": 71,
+          "type": "substitution",
+          "team": "Blue Lions",
+          "player": "S. Jacobs"
+        },
+        {
+          "event_id": 9,
+          "minute": 79,
+          "type": "shot",
+          "team": "Blue Lions",
+          "player": "S. Jacobs"
+        },
+        {
+          "event_id": 10,
+          "minute": 82,
+          "type": "goal",
+          "team": "Blue Lions",
+          "player": "S. Jacobs"
+        }
+      ],
+      "audience_copy": {
+        "fan": "Super-sub S. Jacobs changed it for Blue Lions.",
+        "analyst": "S. Jacobs entered at 71', put a 0.35 xG shot on target at 79', then scored at 82'."
+      },
+      "rule": "substitute_goal_with_on_target_shot_within_15_minutes"
+    },
+    {
+      "kind": "DECISIVE_GOAL",
+      "headline": "S. Jacobs's 82' goal became Blue Lions's winner.",
+      "evidence_event_ids": [
+        6,
+        10
+      ],
+      "evidence": [
+        {
+          "event_id": 6,
+          "minute": 52,
+          "type": "goal",
+          "team": "Red Hawks",
+          "player": "A. Ndlovu"
+        },
+        {
+          "event_id": 10,
+          "minute": 82,
+          "type": "goal",
+          "team": "Blue Lions",
+          "player": "S. Jacobs"
+        }
+      ],
+      "audience_copy": {
+        "fan": "S. Jacobs found the winner for Blue Lions.",
+        "analyst": "After the score was levelled at 52', S. Jacobs scored at 82' (0.35 xG); no later opposition goal appears in the event stream."
+      },
+      "rule": "draw_to_one_goal_lead_with_no_later_opposition_goal"
+    }
+  ]
+}
